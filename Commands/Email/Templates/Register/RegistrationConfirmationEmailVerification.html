@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration Confirmation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <style type="text/css">
+            /* Add some padding on document's body to prevent the content
+        to go underneath the header and footer */
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+            font-size: 1em !important;
+            color: #000 !important;
+            font-family: "Montserrat", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        }
+
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                /* Center the DIV horizontally */
+            }
+
+            .fixed-header {
+                width: 100%;
+                position: fixed;
+                background: #F0F3F5;
+                padding: 10px 0;
+                color: #fff;
+            }
+
+        .fixed-footer {
+            width: 100%;
+            position: fixed;
+            background: #493B82;
+            padding: 10px 0;
+            color: white;
+        }
+
+            .fixed-header {
+                top: 0;
+            }
+
+            .fixed-footer {
+                bottom: 0;
+            }
+
+            /* Some more styles to beutify this example */
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 7px 25px;
+                display: inline-block;
+            }
+
+            .container p {
+                line-height: 200px;
+                /* Create scrollbar to test positioning */
+            }
+
+        img {
+            width: 200px;
+            height: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <div>
+                <!--<img src="../Images/logo.png">-->
+                <img src="cid:logo">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <br />
+        <br /> <br />
+        <br />
+        <div>Dear <strong>##NAME##</strong>,</div>
+        <br />
+
+        <div>Welcome to AOA Portal</div>
+        <br />
+        <div>Your account has been created successfully</div>
+
+        <br />
+        <div>Username - <strong>##USERNAME##</strong></div>
+        <br />
+        <div>You need to verify your email for login</div>
+        <br />
+        <div>Please, <a href="##EMAILVERIFICATIONURL##">click here</a>  to verify your Email Address</div>
+
+    </div>
+    <br />
+    <div class="fixed-footer">
+        <div class="container">
+            Copyright &copy; 2020 <a id="pixinventLink" target="_blank" href="https://artofalignment.com/">AOA, All rights reserved.</a>
+        </div>
+    </div>
+</body>
+
+</html>
